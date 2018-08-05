@@ -6,7 +6,7 @@ export const SET_FULL_SCREEN = 'SET_FULL_SCREEN'
 
 export const SET_PLAYLIST = 'SET_PLAYLIST'
 
-export const SET_SEQUENCE_LIST = 'SET_SEQUENCE'
+export const SET_SEQUENCE_LIST = 'SET_SEQUENCE_LIST'
 
 export const SET_PLAY_MOOE = 'SET_PLAY_MOOE'
 

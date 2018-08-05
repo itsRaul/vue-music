@@ -60,4 +60,22 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
         ...mapGetters([
 
         ])
-        
+
+### 移动端事件
+    touchstart事件：
+        当手指触摸屏幕时候触发，即使已经有一个手指放在屏幕上也会触发。
+
+    touchmove事件：
+        当手指在屏幕上滑动的时候连续地触发。在这个事件发生期间，调用preventDefault()事件可以阻止滚动。
+
+    touchend事件：
+        当手指从屏幕上离开的时候触发。
+    touchcancel事件：
+        当系统停止跟踪触摸的时候触发。关于这个事件的确切出发时间，文档中并没有具体说明，咱们只能去猜测了。
+    
+    以上事件都会冒泡 
+    @touchstart.prevent(阻止冒泡)
+
+    ### findIndex(function(currentValue, index, arr){})
+            返回传入一个测试条件（函数）符合条件的数组第一个元素位置。
+            符合条件元素的第一个位置
