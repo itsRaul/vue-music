@@ -354,6 +354,7 @@
                 }
                 this.$nextTick(()=>{
                     this.$refs.audio.play();
+                    this.currentSong.getLyric()
                 })              
             },
             //控制播放按钮，监控播放状态

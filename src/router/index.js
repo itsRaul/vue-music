@@ -7,6 +7,7 @@ import Singer from 'view/singer/singer'
 import Rank from 'view/rank/rank'
 import Search from 'view/search/search'
 import SingerDetail from '../components/singer-detail/singer-detail'
+
 // const Recommend = (resolve) =>{
 //   import('view/recommend/recommend').then((modlue)=>{
 //     resolve(modlue)

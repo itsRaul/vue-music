@@ -34,7 +34,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
     1.resolve/alias
         可以配置项目的相对路径
 
-### router-view加<keep-alive>将DOM缓存到内存(优化之一)
+### router-view加 keep-alive 将DOM缓存到内存(优化之一)
 
 ### vue-lazyload(图片的懒加载，节省流量资源)
     使用方法：import VueLazyload from 'vue-lazyload'
@@ -49,7 +49,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
     3.getters取state数据，简单包装
 
-    4.action是进行异步操作，提交mutations
+    4.action是进行异步操作，和提交多个mutations
 
     5.vuex提供mapMutations，对mutations进行封装,进行映射
         ...mapMutations({
@@ -76,6 +76,6 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
     以上事件都会冒泡 
     @touchstart.prevent(阻止冒泡)
 
-    ### findIndex(function(currentValue, index, arr){})
-            返回传入一个测试条件（函数）符合条件的数组第一个元素位置。
-            符合条件元素的第一个位置
+### findIndex(function(currentValue, index, arr){})
+    返回传入一个测试条件（函数）符合条件的数组第一个元素位置。
+    符合条件元素的第一个位置
